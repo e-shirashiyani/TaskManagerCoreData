@@ -16,6 +16,10 @@
 		B82BBF2927ACF42B00A679FD /* TaskManagmentCoreDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BBF2827ACF42B00A679FD /* TaskManagmentCoreDateTests.swift */; };
 		B82BBF3327ACF42B00A679FD /* TaskManagmentCoreDateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BBF3227ACF42B00A679FD /* TaskManagmentCoreDateUITests.swift */; };
 		B82BBF3527ACF42B00A679FD /* TaskManagmentCoreDateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BBF3427ACF42B00A679FD /* TaskManagmentCoreDateUITestsLaunchTests.swift */; };
+		B82BBF4527ACF8EE00A679FD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BBF4427ACF8EE00A679FD /* Home.swift */; };
+		B82BBF4727ACF93600A679FD /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BBF4627ACF93600A679FD /* TaskViewModel.swift */; };
+		B82BBF4927AD0E7700A679FD /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BBF4827AD0E7700A679FD /* DynamicFilteredView.swift */; };
+		B82BBF4B27AD253500A679FD /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BBF4A27AD253500A679FD /* NewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		B82BBF2E27ACF42B00A679FD /* TaskManagmentCoreDateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagmentCoreDateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82BBF3227ACF42B00A679FD /* TaskManagmentCoreDateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagmentCoreDateUITests.swift; sourceTree = "<group>"; };
 		B82BBF3427ACF42B00A679FD /* TaskManagmentCoreDateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagmentCoreDateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B82BBF4427ACF8EE00A679FD /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B82BBF4627ACF93600A679FD /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		B82BBF4827AD0E7700A679FD /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
+		B82BBF4A27AD253500A679FD /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 		B82BBF1127ACF42800A679FD /* TaskManagmentCoreDate */ = {
 			isa = PBXGroup;
 			children = (
+				B82BBF4327ACF86800A679FD /* ViewModel */,
+				B82BBF4227ACF86100A679FD /* View */,
 				B82BBF1227ACF42800A679FD /* TaskManagmentCoreDateApp.swift */,
 				B82BBF1427ACF42800A679FD /* ContentView.swift */,
 				B82BBF1627ACF42B00A679FD /* Assets.xcassets */,
@@ -131,6 +141,24 @@
 				B82BBF3427ACF42B00A679FD /* TaskManagmentCoreDateUITestsLaunchTests.swift */,
 			);
 			path = TaskManagmentCoreDateUITests;
+			sourceTree = "<group>";
+		};
+		B82BBF4227ACF86100A679FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B82BBF4427ACF8EE00A679FD /* Home.swift */,
+				B82BBF4827AD0E7700A679FD /* DynamicFilteredView.swift */,
+				B82BBF4A27AD253500A679FD /* NewTask.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B82BBF4327ACF86800A679FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B82BBF4627ACF93600A679FD /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B82BBF1F27ACF42B00A679FD /* TaskManagmentCoreDate.xcdatamodeld in Sources */,
+				B82BBF4927AD0E7700A679FD /* DynamicFilteredView.swift in Sources */,
+				B82BBF4727ACF93600A679FD /* TaskViewModel.swift in Sources */,
 				B82BBF1C27ACF42B00A679FD /* Persistence.swift in Sources */,
+				B82BBF4527ACF8EE00A679FD /* Home.swift in Sources */,
+				B82BBF4B27AD253500A679FD /* NewTask.swift in Sources */,
 				B82BBF1527ACF42800A679FD /* ContentView.swift in Sources */,
 				B82BBF1327ACF42800A679FD /* TaskManagmentCoreDateApp.swift in Sources */,
 			);
